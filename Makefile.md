@@ -22,7 +22,7 @@
 
 ### 	3. cmake
 
-​	简单工程的makefile可以人工手写，但是面对复杂工程，手写makefile也是非常麻烦的，如果换了个平台makefile又要重新修改，这时候就出现了下面的Cmake这个工具。跨平台编译工具，使用cmake去生成Makefile也得去写一个规则CMakeLists.txt文件。
+​	简单工程的makefile可以人工手写，但是面对复杂工程，手写makefile也是非常麻烦的，如果换了个平台makefile又要重新修改，这时候就出现了下面的Cmake这个工具。跨平台编译工具，使用cmake去生成Makefile也得去写一个规则CMakeLists.txt文件。 
 
 ## 	二、什么是Makefile?
 
@@ -111,5 +111,4 @@ $< : 表示第一个依赖文件
   %.o:%.c
   	$(CC) -c $< -o $@ 
   ```
-
 
