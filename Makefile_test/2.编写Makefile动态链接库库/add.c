@@ -1,6 +1,6 @@
 
 #include "so_test.h"
 int add(int a , int b){
-    printf("è¿è¡Œåˆ°äº†addå‡½æ•°\n");
+    printf("ÅóÓÑ\n");
     return a + b + 100;
 }   
